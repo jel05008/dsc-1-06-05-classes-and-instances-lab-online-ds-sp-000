@@ -33,12 +33,12 @@ from ride import Ride
 
 
 ```python
-# import Driver class here
+from driver import Driver 
 ```
 
 
 ```python
-# import Passenger class here
+from passenger import Passenger
 ```
 
 ## Creating Instances
@@ -47,8 +47,8 @@ Let's now practice using our classes to make instances of those classes. Make tw
 
 
 ```python
-meryl = None
-daniel = None
+meryl = Passenger()
+daniel = Passenger()
 print(meryl, daniel)
 ```
 
@@ -56,7 +56,7 @@ Next, make one instance of the driver class and assign it to the variable, `flat
 
 
 ```python
-flatiron_taxi = None
+flatiron_taxi = Driver()
 print(flatiron_taxi)
 ```
 
@@ -64,8 +64,8 @@ Finally, make two instances of the Ride class and assign them to `ride_to_school
 
 
 ```python
-ride_to_school = None
-ride_home = None
+ride_to_school = Ride()
+ride_home = Ride()
 print(ride_to_school, ride_home)
 ```
 
